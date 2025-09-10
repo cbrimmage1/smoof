@@ -44,8 +44,7 @@ ul li a {
   
 /* Hover Effect – Referenced from https://prismic.io/blog/css-hover-effects */
 
-.hover-underline::after,
-.hover-underline::before {
+.hover-underline::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -58,8 +57,7 @@ ul li a {
   transition: transform 0.4s ease-out;
 }
 
-.hover-underline:hover::after,
-.hover-underline:hover::before {
+.hover-underline:hover::after {
   transform: scaleX(1);
 }
 
